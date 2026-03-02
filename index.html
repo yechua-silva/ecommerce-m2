@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Ecommerce</title>
+  </head>
+  <body>
+    <!-- barra de navegacion -->
+    <header>
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">Ecommerce</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- icono burger -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mx-2">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- seccion hero -->
+    <section
+      class="hero-section d-flex align-items-center justify-content-center text-white"
+    >
+      <div class="overlay"></div>
+      <div class="container position-relative">
+        <h1 class="display-3 fw-bold">Entrena sin limites</h1>
+        <p class="lead mb-4">
+          Packs de entrenamiento, equipamiento y suplementación profesional.
+        </p>
+        <button
+          type="button"
+          id="btn-ver-productos"
+          class="btn btn-primary btn-lg px-5 py-3 rounded-pill"
+        >
+          Ver Productos
+        </button>
+      </div>
+    </section>
+
+    <!-- seccion de productos -->
+    <main class="container-fluid my-5">
+      <h2 class="text-center mb-4">Nuestros Servicios y Productos</h2>
+      <div class="row row-cols-1-md-3 g-4" id="contenerdor-productos"></div>
+    </main>
+
+    <!-- CDN bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
