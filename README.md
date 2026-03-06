@@ -12,3 +12,7 @@ Tienda online de productos y servicios fitness.
 
 - Catálogo con filtro por categoría
 - Carrito persistente con localStorage
+
+## Repositorio
+
+[GitHub](https://github.com/yechua-silva/ecommerce-m2)
