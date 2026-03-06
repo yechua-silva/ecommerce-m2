@@ -1,7 +1,11 @@
 const obtenerCarrito = () => {
-  return JSON.parse(localStorage.getItem("carrito")) || [];
+  try {
+    return JSON.parse(localStorage.getItem("carrito")) || [];
+  } catch {
+    localStorage.removeItem("carrito");
+    return [];
+  }
 };
-
 const actualizarContador = () => {
   const contador = document.querySelector("#contador-carrito");
   if (!contador) return;

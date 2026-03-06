@@ -4,21 +4,19 @@ const carrito = obtenerCarrito();
 
 const renderizarCarrito = () => {
   const lista = document.querySelector("#lista-carrito");
+  lista.innerHTML = "";
 
   if (carrito.length === 0) {
     lista.innerHTML = `<p class="text-center">Tu carrito está vacío</p>`;
     return;
   }
 
+  if (carrito.length === 0) {
+    lista.innerHTML = `<p class="text-center">Tu carrito está vacío</p>`;
+    return;
+  }
   carrito.forEach((producto, index) => {
-    lista.innerHTML = "";
-
-    if (carrito.length === 0) {
-      lista.innerHTML = `<p class="text-center">Tu carrito está vacío</p>`;
-      return;
-    }
-    carrito.forEach((producto, index) => {
-      lista.innerHTML += `
+    lista.innerHTML += `
       <div class="card mb-3">
         <div class="card-body d-flex justify-content-between align-items-center">
           <div>
@@ -30,10 +28,8 @@ const renderizarCarrito = () => {
           </button>
         </div>
       </div>`;
-    });
   });
 };
-
 const calcularTotal = () => {
   const total = carrito.reduce((acc, prod) => {
     return acc + prod.precio;

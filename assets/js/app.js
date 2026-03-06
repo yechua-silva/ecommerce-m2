@@ -4,7 +4,7 @@ const seccionPrductos = document.querySelector("main");
 const btnCategorias = document.querySelectorAll("#filtro-categorias .nav-link");
 const contenedor = document.querySelector("#contenedor-productos");
 let productos = [];
-let carrito = obtenerCarrito();
+let carrito = obtenerCarrito() || [];
 
 actualizarContador();
 
@@ -25,18 +25,12 @@ if (contenedor) {
 const addCarrito = (id) => {
   const producto = productos.find((p) => p.id === id);
   carrito.push(producto);
-  guardarCarrito();
+  guardarCarrito(carrito);
   actualizarContador();
 };
 
 const renderizarProductos = (lista = []) => {
   contenedor.innerHTML = "";
-
-  const imagenPorCategoria = {
-    pack: "gym",
-    implementacion: "equipment",
-    suplementacion: "nutrition",
-  };
 
   lista.forEach((producto) => {
     contenedor.innerHTML += `
@@ -45,6 +39,7 @@ const renderizarProductos = (lista = []) => {
         <div class="card-body">
 <img src="https://loremflickr.com/400/200/fitness,gym?lock=${producto.id}" 
      class="card-img-top" alt="${producto.nombre}">
+            <h5 class="card-title">${producto.nombre}</h5>
           <p class="card-text">${producto.descripcion}</p>
           <p>$${producto.precio}</p>
         </div>
