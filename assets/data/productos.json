@@ -28,24 +28,6 @@
       "imagen_url": "https://images.unsplash.com/photo-bodybuilding-video"
     },
     {
-      "id": 4,
-      "nombre": "Yoga & Mindfulness Bundle",
-      "descripcion": "10 sesiones de Yoga suave + 5 meditaciones guiadas descargables.",
-      "precio": 35000,
-      "stock": 25,
-      "categoria": "pack",
-      "imagen_url": "https://images.unsplash.com/photo-yoga-sessions"
-    },
-    {
-      "id": 5,
-      "nombre": "Cross-Training Pass",
-      "descripcion": "Mes liberado en Box asociado + polera técnica de entrenamiento de regalo.",
-      "precio": 60000,
-      "stock": 10,
-      "categoria": "pack",
-      "imagen_url": "https://images.unsplash.com/photo-cross-training"
-    },
-    {
       "id": 6,
       "nombre": "Set Mancuernas Hexagonales",
       "descripcion": "Par de mancuernas de 10kg con recubrimiento de caucho para mayor durabilidad.",
@@ -73,69 +55,6 @@
       "imagen_url": "https://images.unsplash.com/photo-parallettes"
     },
     {
-      "id": 9,
-      "nombre": "Barra de Dominadas Pared",
-      "descripcion": "Estructura reforzada para muro con múltiples agarres (ancho, neutro y cerrado).",
-      "precio": 35000,
-      "stock": 5,
-      "categoria": "implementacion",
-      "imagen_url": "https://images.unsplash.com/photo-pullup-bar"
-    },
-    {
-      "id": 10,
-      "nombre": "Bandas de Resistencia (Set 5)",
-      "descripcion": "5 niveles de resistencia elástica para glúteos y activación muscular.",
-      "precio": 12000,
-      "stock": 40,
-      "categoria": "implementacion",
-      "imagen_url": "https://images.unsplash.com/photo-resistance-bands"
-    },
-    {
-      "id": 11,
-      "nombre": "Mat de Yoga Premium",
-      "descripcion": "6mm de espesor, material ecológico TPE y superficie antideslizante.",
-      "precio": 22000,
-      "stock": 20,
-      "categoria": "implementacion",
-      "imagen_url": "https://images.unsplash.com/photo-yoga-mat"
-    },
-    {
-      "id": 12,
-      "nombre": "Kettlebell 16kg",
-      "descripcion": "Pesa rusa de hierro fundido, perfecta para swings y entrenamiento funcional.",
-      "precio": 38000,
-      "stock": 6,
-      "categoria": "implementacion",
-      "imagen_url": "https://images.unsplash.com/photo-kettlebell"
-    },
-    {
-      "id": 13,
-      "nombre": "Cuerda de Salto Speed",
-      "descripcion": "Cuerda de alta velocidad con rodamientos para saltos dobles (Crossfit).",
-      "precio": 9000,
-      "stock": 50,
-      "categoria": "implementacion",
-      "imagen_url": "https://images.unsplash.com/photo-jump-rope"
-    },
-    {
-      "id": 14,
-      "nombre": "Banco Multiposición",
-      "descripcion": "Banco ajustable (plano, inclinado y declinado) para press de banca y mancuernas.",
-      "precio": 115000,
-      "stock": 3,
-      "categoria": "implementacion",
-      "imagen_url": "https://images.unsplash.com/photo-weight-bench"
-    },
-    {
-      "id": 15,
-      "nombre": "Foam Roller Pro",
-      "descripcion": "Rodillo de espuma de alta densidad para liberación miofascial y recuperación.",
-      "precio": 18000,
-      "stock": 15,
-      "categoria": "implementacion",
-      "imagen_url": "https://images.unsplash.com/photo-foam-roller"
-    },
-    {
       "id": 16,
       "nombre": "Whey Protein Isolate (1kg)",
       "descripcion": "Proteína de suero de alta pureza, sabor Vainilla, baja en carbohidratos.",
@@ -161,69 +80,6 @@
       "stock": 18,
       "categoria": "suplementacion",
       "imagen_url": "https://images.unsplash.com/photo-preworkout"
-    },
-    {
-      "id": 19,
-      "nombre": "BCAA Recovery Drink",
-      "descripcion": "Aminoácidos de cadena ramificada sabor Fruit Punch para intra-entrenamiento.",
-      "precio": 19000,
-      "stock": 22,
-      "categoria": "suplementacion",
-      "imagen_url": "https://images.unsplash.com/photo-bcaa"
-    },
-    {
-      "id": 20,
-      "nombre": "Multivitamínico Sport",
-      "descripcion": "Complejo vitamínico optimizado para el desgaste físico del deportista.",
-      "precio": 14000,
-      "stock": 35,
-      "categoria": "suplementacion",
-      "imagen_url": "https://images.unsplash.com/photo-vitamins"
-    },
-    {
-      "id": 21,
-      "nombre": "Omega-3 Fish Oil",
-      "descripcion": "Cápsulas de aceite de pescado para salud cardiovascular y anti-inflamación.",
-      "precio": 16000,
-      "stock": 30,
-      "categoria": "suplementacion",
-      "imagen_url": "https://images.unsplash.com/photo-omega3"
-    },
-    {
-      "id": 22,
-      "nombre": "Caseína Micelar (900g)",
-      "descripcion": "Proteína de absorción lenta ideal para tomar antes de dormir. Sabor Chocolate.",
-      "precio": 34000,
-      "stock": 12,
-      "categoria": "suplementacion",
-      "imagen_url": "https://images.unsplash.com/photo-casein"
-    },
-    {
-      "id": 23,
-      "nombre": "Fat Burner Elite",
-      "descripcion": "Termogénico natural para apoyar procesos de pérdida de grasa corporal.",
-      "precio": 27000,
-      "stock": 15,
-      "categoria": "suplementacion",
-      "imagen_url": "https://images.unsplash.com/photo-fatburner"
-    },
-    {
-      "id": 24,
-      "nombre": "Citrato de Magnesio",
-      "descripcion": "Mineral esencial para la relajación muscular y calidad del sueño.",
-      "precio": 11000,
-      "stock": 50,
-      "categoria": "suplementacion",
-      "imagen_url": "https://images.unsplash.com/photo-magnesium"
-    },
-    {
-      "id": 25,
-      "nombre": "Electrolitos en Polvo",
-      "descripcion": "Mezcla hidratante rápida para reponer sales perdidas por el sudor.",
-      "precio": 13000,
-      "stock": 60,
-      "categoria": "suplementacion",
-      "imagen_url": "https://images.unsplash.com/photo-electrolytes"
     }
   ]
 }

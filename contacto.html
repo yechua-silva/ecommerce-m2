@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
     <link
       rel="stylesheet"
       href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -13,7 +14,6 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Ecommerce</title>
   </head>
   <body class="d-flex flex-column min-vh-100">
     <!-- barra de navegacion -->
@@ -52,79 +52,58 @@
               <a href="carrito.html" class="nav-link">Carrito</a>
             </li>
             <li class="nav-item">
-              <a href="contacto.html" class="nav-link">Contacto</a>
+              <a href="#" class="nav-link">Contacto</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <!-- seccion hero -->
-    <section
-      class="hero-section d-flex align-items-center justify-content-center text-white px-4"
-      aria-label="Seccion principal"
-    >
-      <div class="overlay"></div>
-      <div class="container position-relative">
-        <h1 class="display-3 fw-bold">Entrena sin limites</h1>
-        <p class="lead mb-4">
-          Packs de entrenamiento, equipamiento y suplementación profesional.
-        </p>
-        <div>
-          <button
-            type="button"
-            id="btn-ver-productos"
-            class="btn btn-primary btn-lg px-5 py-3 rounded-pill text-centers"
-          >
-            Ver Productos
-          </button>
+    <main class="container my-5 flex-grow-1">
+      <h2 class="text-center mb-5">Contacto</h2>
+      <div class="row justify-content-center g-4">
+        <!-- datos de contacto -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100 p-4">
+            <h5 class="mb-4">Encuéntranos</h5>
+            <p><i class="bi bi-geo-alt me-2"></i>Av. Alemania 1234, Temuco</p>
+            <p><i class="bi bi-telephone me-2"></i>+56 9 1234 5678</p>
+            <p><i class="bi bi-envelope me-2"></i>contacto@egym.cl</p>
+            <p><i class="bi bi-clock me-2"></i>Lun–Vie: 8:00 – 20:00</p>
+          </div>
+        </div>
+
+        <!-- formulario -->
+        <div class="col-12 col-md-6">
+          <div class="card p-4">
+            <h5 class="mb-4">Envíanos un mensaje</h5>
+            <div class="mb-3">
+              <label class="form-label">Nombre</label>
+              <input type="text" class="form-control" placeholder="Tu nombre" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="tu@email.cl"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Mensaje</label>
+              <textarea
+                class="form-control"
+                rows="4"
+                placeholder="¿En qué podemos ayudarte?"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary w-100">Enviar mensaje</button>
+          </div>
         </div>
       </div>
-    </section>
-
-    <!-- seccion de productos -->
-    <main class="container my-5 flex-grow-1">
-      <h2 class="text-center mb-4">Nuestros Servicios y Productos</h2>
-      <ul
-        class="nav nav-pills justify-content-center mb-4"
-        id="filtro-categorias"
-      >
-        <li class="nav-item">
-          <button type="button" class="nav-link active" data-categoria="todos">
-            Todos
-          </button>
-        </li>
-        <li class="nav-item">
-          <button type="button" class="nav-link" data-categoria="pack">
-            Packs
-          </button>
-        </li>
-        <li class="nav-item">
-          <button
-            type="button"
-            class="nav-link"
-            data-categoria="implementacion"
-          >
-            Implementación
-          </button>
-        </li>
-        <li class="nav-item">
-          <button
-            type="button"
-            class="nav-link"
-            data-categoria="suplementacion"
-          >
-            Suplementación
-          </button>
-        </li>
-      </ul>
-      <div
-        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
-        id="contenedor-productos"
-      ></div>
     </main>
 
-    <!-- footer -->
+    <!-- footers -->
     <footer class="py-4 mt-5">
       <div class="container">
         <div class="row text-center text-md-start">
@@ -160,7 +139,6 @@
         </p>
       </div>
     </footer>
-
     <!-- CDN bootstrap y scrip-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

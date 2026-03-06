@@ -6,10 +6,11 @@
   --bs-body-color: #e0e0e0;
   --bs-primary: #00e676;
   --bs-primary-rgb: 0, 230, 118;
+  --bs-primary-hover: #00c864;
 
   /* Superficies -  */
   --bs-surface-bg: #1e1e1e;
-  --bd-border-color: #333333;
+  --bs-border-color: #333333;
 
   /* Tipografía  */
   --bs-body-font-family: "Inter", sans-serif;
@@ -21,6 +22,7 @@ h2,
 h3,
 h4,
 h5,
+h6,
 .navbar-brand {
   font-family: var(--bs-heading-font-family);
   color: var(--bs-primary);
